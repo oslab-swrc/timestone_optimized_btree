@@ -1,6 +1,6 @@
 # timestone_optimized_btree
 
-This repository provide the header file of btree to which timestone is applied.
+This repository provide the algorithm of btree to which timestone is applied.
 
 It is provided under the terms of Apache 2.0 License
 
