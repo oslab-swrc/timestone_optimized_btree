@@ -2,7 +2,7 @@
 
 This repository provide the header file of btree to which timestone is applied.
 
-It is proviced under the terms of Apache 2.0 License
+It is provided under the terms of Apache 2.0 License
 
 ## How to use
 
@@ -13,7 +13,7 @@ It is proviced under the terms of Apache 2.0 License
 - Clone this repository in the '/unittest'
 ```
 #> cd unittest
-#/unittest> git clone 
+#/unittest> git clone <this repo> 
 ```
 - Build
 ```
