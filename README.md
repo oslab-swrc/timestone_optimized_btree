@@ -12,16 +12,27 @@ It is provided under the terms of Apache 2.0 License
 #> cd timestone
 #/timestone> make
 ```
-- Clone this repository in the '/unittest'
+- Clone this repository and check the btree header file; 'btree.hpp'
 ```
-#/timestone> cd unittest
-#/timestone/unittest> git clone <this repo> 
+#> git clone <this repo> 
 ```
-- Build and run
+- Put the header file in your application, and include it before using it with timestone.
 ```
-#/timestone> cd lib/
-#/timestone/lib> CONF=gtest make
-#/timestone/lib> cd ../unittest/
-#/timestone/unittest> make
-#/timestone/unittest> sudo ./ut-ts --gtest_filter=cpp.btree_concurrent
+#include "btree.hpp"
+#include "timestone.h"
+```
+
+- You can handle Btree structure through following APIs
+```
+create_node()
+create_leaf()
+get_leaf()
+insert()
+insert_into_leaf()
+split_insert_leaf()
+insert_into_parent()
+split_insert_into_node()
+get_left_index()
+insert_into_new_root()
+lookup()
 ```
